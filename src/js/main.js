@@ -58,5 +58,8 @@ for (let c in colors) {
 
 // now... if you want to keep a copy of this that you know is working, save a copy, and then...
 
-// now remove both loops so you just have the code to make one dot, and wrap it in a function
-// and make that function run on an interval of 50 milliseconds
+// now remove both loops so you just have the code to make one dot, the color in the 0 position in the array, 
+// and wrap it in a function. make that function run on an interval of 50 milliseconds
+
+// now add a line to that function which removes the first item from the front of the array, and adds it to the end
+// the result is that you use "red", and then you move it to the end, so now "orange" is first, then you use "orange"...
