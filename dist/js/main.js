@@ -1,0 +1,2 @@
+"use strict";console.log("Hello World from main.js! \nChange this message, and make sure it changes in the browser \nto verify that you're working in the right files.");var colors=["red","orange","yellow","green","blue","purple","black"],rand=function(e,r){};for(var c in colors)newDot.style.transition="transform 0.3s cubic-bezier(.17,.67,.54,1.33)",newDot.style.transform="scale(0)",setTimeout(function(){newDot.style.transform="scale(1)"},1);
+//# sourceMappingURL=main.js.map
