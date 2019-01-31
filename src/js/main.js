@@ -43,11 +43,11 @@ for (let c in colors) {
     newDot.style.transition = "transform 0.3s cubic-bezier(.17,.67,.54,1.33)";
     newDot.style.transform = "scale(0)";
     
-    // make a timeout for 1 millisecond. this is sort of a hack that makes it apply the above styles first, 
+    // make a timeout for 10 milliseconds. this is sort of a hack that makes it apply the above styles first, 
     // and then the below styles. if you dont do it, the css transition old and new styles them doesn't work. 
     setTimeout(function() {
         newDot.style.transform = "scale(1)";
-    }, 1)
+    }, 10)
 
 
     // append the new dot to the body
